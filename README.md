@@ -31,7 +31,7 @@ Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/t
   - Browse the repository to explore individual project folders.  
   - Each project includes its own README file with full context and analysis summary. Click on individual folders to view the code, datasets, and reports directly on GitHub or download them for offline use.  
 
-- *How to Download Files:
+- *How to Download Files:*
   If you're unable to download individual files directly from GitHub, you can follow these alternative methods:
   - *Download the Entire Repository as a ZIP File:*  
     1. Go to the repository page.  
