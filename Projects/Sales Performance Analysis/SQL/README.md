@@ -1,55 +1,29 @@
-# Multi-Tool Data Analytics Projects  
-## *(Excel · SQL · Power BI · Python)*  
+# 🧠 SQL – Advanced Analysis
 
-## Table of Contents  
-1. [Introduction](#introduction)  
-2. [Featured Projects](#featured-projects)  
-3. [All Projects](#all-projects)  
-4. [Getting Started](#getting-started)  
-5. [Contact](#contact)  
+## Purpose  
+SQL was used to perform structured, in-depth analysis of the dataset, focusing on trends, comparisons, and economic efficiency over time.
 
-## Introduction  
-Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection showcases data projects where I combine multiple tools—such as **Excel**, **SQL**, **Power BI**, and **Python**—to explore, analyze, and visualize real-world datasets. These projects demonstrate my ability to work across tools to extract meaningful insights, model trends, and build compelling reports and dashboards.
+## Key Queries  
+- Monthly and yearly profit and sales trends  
+- Gross profit margin by product and segment  
+- Month-on-month % changes in:
+  - Sales  
+  - Profit  
+  - COGS per unit vs Revenue per unit  
+- Product profit and sales contribution breakdown
 
-## Featured Projects  
+## Optimizations  
+- Common Table Expressions (CTEs) and window functions were used for clean, efficient querying  
+- Designed to scale with larger datasets
 
-### 📊 Sales Performance Analysis *(Excel · SQL · Power BI)*  
-- **Description:** A comprehensive end-to-end sales analysis using Excel for data preparation, SQL for deep analysis, and Power BI for dashboard storytelling.  
-- **Highlights:** Correlation analysis, unit economics, gross profit margin trends, and country/product performance comparisons.  
-- **Report:** [Read Report](./Sales-Performance-Project/Sales%20Analysis%20Report.md)  
-- **Folder:** [View Project](./Sales-Performance-Project)  
+## Insights Gained  
+- Sales and profit moved in a similar pattern
+- The COGS per unit was stable at around 0 with very few distortions  
+- The Product Paeso had high revenue but unimpressive margins
+- Each product's Contribution to sales was similar to their contribution to profits
 
-*More featured projects will be added as new work is completed.*
 
-## All Projects  
-Each folder within this repository contains a complete project. Projects may use two or more tools depending on the scope and objective.  
-Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/tree/ML-main/Projects)* to see the full list.
+![Screenshot 2025-06-07 101758](https://github.com/user-attachments/assets/cb9b6c68-78e7-459f-b981-83e5149d3924)
 
-## Getting Started  
 
-- 🔍 *Viewing the Projects:*  
-  - Browse the repository to explore individual project folders.  
-  - Each project includes its own README file with full context and analysis summary. Click on individual folders to view the code, datasets, and reports directly on GitHub or download them for offline use.  
-
-- *How to Download Files:*
-  If you're unable to download individual files directly from GitHub, you can follow these alternative methods:
-  - *Download the Entire Repository as a ZIP File:*  
-    1. Go to the repository page.  
-    2. Click the green **Code** button at the top right of the page.  
-    3. Select **Download ZIP** from the dropdown menu.  
-    4. Once the ZIP file is downloaded, unzip it to access all the files.  
-
-  - *Clone the Repository Using Git:*  
-    If Git is installed on your system:  
-    1. Copy the repository URL from the **Code** button (the HTTPS link).  
-    2. Open your terminal or command prompt.  
-    3. Type the following command:  
-       ```bash  
-       git clone https://github.com/Isadare-Oreoluwa/ML-projects.git  
-       ```  
-    4. This will download all the contents of the repository to your local machine.  
-
-## Contact  
-
-For any questions or inquiries, feel free to reach out to me via [email](mailto:isadare.ore@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/oreoluwa-isadare).
-
+![Screenshot 2025-06-07 101509](https://github.com/user-attachments/assets/efb66b49-bbcd-4bd2-80bc-32a695916f1e)
