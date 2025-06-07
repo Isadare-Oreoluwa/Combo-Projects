@@ -1,55 +1,24 @@
-# Multi-Tool Data Analytics Projects  
-## *(Excel · SQL · Power BI · Python)*  
+# 📈 Sales Performance Analysis Project
 
-## Table of Contents  
-1. [Introduction](#introduction)  
-2. [Featured Projects](#featured-projects)  
-3. [All Projects](#all-projects)  
-4. [Getting Started](#getting-started)  
-5. [Contact](#contact)  
+## Overview  
+This project focuses on analyzing sales data across various products, countries, and customer segments. Using a multi-tool approach, I conducted comprehensive analysis in **Excel**, **SQL**, and **Power BI** to derive insights into profitability, cost efficiency, and revenue trends.
 
-## Introduction  
-Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection showcases data projects where I combine multiple tools—such as **Excel**, **SQL**, **Power BI**, and **Python**—to explore, analyze, and visualize real-world datasets. These projects demonstrate my ability to work across tools to extract meaningful insights, model trends, and build compelling reports and dashboards.
+## Tools Used  
+- **Excel**: Data cleaning, preprocessing, and initial exploratory analysis  
+- **SQL**: Advanced data analysis (e.g., time trends, aggregations, profit contribution)  
+- **Power BI**: Interactive dashboards and visual storytelling  
 
-## Featured Projects  
+## Key Questions Explored  
+- Which products and countries contribute most to profit and revenue?  
+- How does discounting affect sales and profit?  
+- Are there patterns in cost and revenue per unit over time?  
+- What are the segment-level profit margins and trends?
 
-### 📊 Sales Performance Analysis *(Excel · SQL · Power BI)*  
-- **Description:** A comprehensive end-to-end sales analysis using Excel for data preparation, SQL for deep analysis, and Power BI for dashboard storytelling.  
-- **Highlights:** Correlation analysis, unit economics, gross profit margin trends, and country/product performance comparisons.  
-- **Report:** [Read Report](./Sales-Performance-Project/Sales%20Analysis%20Report.md)  
-- **Folder:** [View Project](./Sales-Performance-Project)  
+## Insights Summary  
+- Discounts have a strong positive correlation with sales (0.74) and a moderate one with profit (0.44).  
+- Paeso leads in sales volume but shows only average profit margin, pointing to cost inefficiencies.  
+- COGS per unit remains stable over time; fluctuations in gross profit margin are driven by changes in revenue.  
+- Gross profit margins vary more by segment than by product, suggesting pricing/cost structure differences.
 
-*More featured projects will be added as new work is completed.*
-
-## All Projects  
-Each folder within this repository contains a complete project. Projects may use two or more tools depending on the scope and objective.  
-Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/tree/ML-main/Projects)* to see the full list.
-
-## Getting Started  
-
-- 🔍 *Viewing the Projects:*  
-  - Browse the repository to explore individual project folders.  
-  - Each project includes its own README file with full context and analysis summary. Click on individual folders to view the code, datasets, and reports directly on GitHub or download them for offline use.  
-
-- *How to Download Files:*
-  If you're unable to download individual files directly from GitHub, you can follow these alternative methods:
-  - *Download the Entire Repository as a ZIP File:*  
-    1. Go to the repository page.  
-    2. Click the green **Code** button at the top right of the page.  
-    3. Select **Download ZIP** from the dropdown menu.  
-    4. Once the ZIP file is downloaded, unzip it to access all the files.  
-
-  - *Clone the Repository Using Git:*  
-    If Git is installed on your system:  
-    1. Copy the repository URL from the **Code** button (the HTTPS link).  
-    2. Open your terminal or command prompt.  
-    3. Type the following command:  
-       ```bash  
-       git clone https://github.com/Isadare-Oreoluwa/ML-projects.git  
-       ```  
-    4. This will download all the contents of the repository to your local machine.  
-
-## Contact  
-
-For any questions or inquiries, feel free to reach out to me via [email](mailto:isadare.ore@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/oreoluwa-isadare).
-
+## Report  
+📄 [Sales Analysis Report](https://github.com/Isadare-Oreoluwa/Combo-Projects/blob/main/Projects/Sales%20Performance%20Analysis/Report/Sales%20Performance%20Analysis%20Report.pdf)
