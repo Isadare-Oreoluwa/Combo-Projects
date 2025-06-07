@@ -23,7 +23,7 @@ Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection
 
 ## All Projects  
 Each folder within this repository contains a complete project. Projects may use two or more tools depending on the scope and objective.  
-Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/tree/ML-main/Projects)* to see the full list.
+Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/combo-projects/tree/Combo-main/Projects)* to see the full list.
 
 ## Getting Started  
 
