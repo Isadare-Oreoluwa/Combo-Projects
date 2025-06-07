@@ -1,55 +1,71 @@
-# Multi-Tool Data Analytics Projects  
-## *(Excel · SQL · Power BI · Python)*  
+# 🧠 SQL – Advanced Analysis
 
-## Table of Contents  
-1. [Introduction](#introduction)  
-2. [Featured Projects](#featured-projects)  
-3. [All Projects](#all-projects)  
-4. [Getting Started](#getting-started)  
-5. [Contact](#contact)  
+## Purpose  
+SQL was used to perform structured, in-depth analysis of the dataset, focusing on trends, comparisons, and economic efficiency over time.
 
-## Introduction  
-Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection showcases data projects where I combine multiple tools—such as **Excel**, **SQL**, **Power BI**, and **Python**—to explore, analyze, and visualize real-world datasets. These projects demonstrate my ability to work across tools to extract meaningful insights, model trends, and build compelling reports and dashboards.
+## Key Queries  
+- Monthly and yearly profit and sales trends  
+- Gross profit margin by product and segment  
+- Month-on-month % changes in:
+  - Sales  
+  - Profit  
+  - COGS per unit vs Revenue per unit  
+- Product profit and sales contribution breakdown
 
-## Featured Projects  
+## Optimizations  
+- Common Table Expressions (CTEs) and window functions were used for clean, efficient querying  
+- Designed to scale with larger datasets
 
-### 📊 Sales Performance Analysis *(Excel · SQL · Power BI)*  
-- **Description:** A comprehensive end-to-end sales analysis using Excel for data preparation, SQL for deep analysis, and Power BI for dashboard storytelling.  
-- **Highlights:** Correlation analysis, unit economics, gross profit margin trends, and country/product performance comparisons.  
-- **Report:** [Read Report](./Sales-Performance-Project/Sales%20Analysis%20Report.md)  
-- **Folder:** [View Project](./Sales-Performance-Project)  
+## Insights Gained  
+- Sales and profit moved in a similar pattern
+- The COGS per unit was stable at around 0 with very few distortions  
+- The Product Paeso had high revenue but unimpressive margins
+- Each product's Contribution to sales was similar to their contribution to profits
 
-*More featured projects will be added as new work is completed.*
+### Key SQL Queries
+ **MoM % Change in COGS per Unit vs Revenue per Unit**
+   ```sql
+WITH monthly_values AS (
+  SELECT
+    year,
+    month_number,
+    month_name,
+    SUM(units_sold) AS total_units,
+    ROUND(SUM(cogs/NULLIF(units_sold, 0)), 2) AS cogs_per_unit,
+    ROUND(SUM(sales/NULLIF(units_sold, 0)), 2) AS revenue_per_unit
+  FROM sales_data
+  GROUP BY year, month_number, month_name
+),
+lagged_values AS (
+  SELECT
+    *,
+    LAG(cogs_per_unit) OVER (ORDER BY year, month_number) AS prev_cogs_per_unit,
+    LAG(revenue_per_unit) OVER (ORDER BY year, month_number) AS prev_revenue_per_unit
+  FROM monthly_values
+)
+SELECT
+  *,
+  ROUND((cogs_per_unit - prev_cogs_per_unit) / NULLIF(prev_cogs_per_unit, 0) * 100, 2) AS cogs_per_unit_mom_change_pct,
+  ROUND((revenue_per_unit - prev_revenue_per_unit) / NULLIF(prev_revenue_per_unit, 0) * 100, 2) AS revenue_per_unit_mom_change_pct
+FROM lagged_values
+ORDER BY year, month_number;
+   ```
 
-## All Projects  
-Each folder within this repository contains a complete project. Projects may use two or more tools depending on the scope and objective.  
-Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/tree/ML-main/Projects)* to see the full list.
-
-## Getting Started  
-
-- 🔍 *Viewing the Projects:*  
-  - Browse the repository to explore individual project folders.  
-  - Each project includes its own README file with full context and analysis summary. Click on individual folders to view the code, datasets, and reports directly on GitHub or download them for offline use.  
-
-- *How to Download Files:*
-  If you're unable to download individual files directly from GitHub, you can follow these alternative methods:
-  - *Download the Entire Repository as a ZIP File:*  
-    1. Go to the repository page.  
-    2. Click the green **Code** button at the top right of the page.  
-    3. Select **Download ZIP** from the dropdown menu.  
-    4. Once the ZIP file is downloaded, unzip it to access all the files.  
-
-  - *Clone the Repository Using Git:*  
-    If Git is installed on your system:  
-    1. Copy the repository URL from the **Code** button (the HTTPS link).  
-    2. Open your terminal or command prompt.  
-    3. Type the following command:  
-       ```bash  
-       git clone https://github.com/Isadare-Oreoluwa/ML-projects.git  
-       ```  
-    4. This will download all the contents of the repository to your local machine.  
-
-## Contact  
-
-For any questions or inquiries, feel free to reach out to me via [email](mailto:isadare.ore@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/oreoluwa-isadare).
+ **Product Sales Contribution**
+   ```sql
+WITH product_sales AS (
+  SELECT product, SUM(sales) AS total_sales
+  FROM sales_data
+  GROUP BY product
+),
+all_sales AS (
+  SELECT SUM(total_sales) AS grand_total FROM product_sales
+)
+SELECT 
+  ps.product,
+  ps.total_sales,
+  ROUND(100.0 * ps.total_sales / a.grand_total, 2) AS sales_percentage_contribution
+FROM product_sales ps, all_sales a
+ORDER BY sales_percentage_contribution DESC;
+   ```
 

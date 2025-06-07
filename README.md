@@ -16,14 +16,14 @@ Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection
 ### 📊 Sales Performance Analysis *(Excel · SQL · Power BI)*  
 - **Description:** A comprehensive end-to-end sales analysis using Excel for data preparation, SQL for deep analysis, and Power BI for dashboard storytelling.  
 - **Highlights:** Correlation analysis, unit economics, gross profit margin trends, and country/product performance comparisons.  
-- **Report:** [Read Report](./Sales-Performance-Project/Sales%20Analysis%20Report.md)  
-- **Folder:** [View Project](./Sales-Performance-Project)  
+- **Report:** [Read Report](https://github.com/Isadare-Oreoluwa/Combo-Projects/blob/main/Projects/Sales%20Performance%20Analysis/Report/Sales%20Performance%20Analysis%20Report.pdf)  
+- **Folder:** [View Project](https://github.com/Isadare-Oreoluwa/Combo-Projects/tree/main/Projects/Sales%20Performance%20Analysis)  
 
 *More featured projects will be added as new work is completed.*
 
 ## All Projects  
 Each folder within this repository contains a complete project. Projects may use two or more tools depending on the scope and objective.  
-Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/tree/ML-main/Projects)* to see the full list.
+Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/Combo-Projects/tree/main/Projects)* to see the full list.
 
 ## Getting Started  
 
