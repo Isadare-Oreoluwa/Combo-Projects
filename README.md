@@ -16,7 +16,7 @@ Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection
 ### 📊 Sales Performance Analysis *(Excel · SQL · Power BI)*  
 - **Description:** A comprehensive end-to-end sales analysis using Excel for data preparation, SQL for deep analysis, and Power BI for dashboard storytelling.  
 - **Highlights:** Correlation analysis, unit economics, gross profit margin trends, and country/product performance comparisons.  
-- **Report:** [Read Report](./Sales-Performance-Project/Sales%20Analysis%20Report.md)  
+- **Report:** [Read Report](https://github.com/Isadare-Oreoluwa/Combo-Projects/blob/main/Projects/Sales%20Performance%20Analysis/Report/Sales%20Performance%20Analysis%20Report.pdf)  
 - **Folder:** [View Project](./Sales-Performance-Project)  
 
 *More featured projects will be added as new work is completed.*
