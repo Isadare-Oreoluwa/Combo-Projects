@@ -1,55 +1,33 @@
-# Multi-Tool Data Analytics Projects  
-## *(Excel · SQL · Power BI · Python)*  
+# 📊 Power BI – Dashboard and Visual Reporting
 
-## Table of Contents  
-1. [Introduction](#introduction)  
-2. [Featured Projects](#featured-projects)  
-3. [All Projects](#all-projects)  
-4. [Getting Started](#getting-started)  
-5. [Contact](#contact)  
+## Purpose  
+Power BI was used to build an interactive dashboard that allows dynamic filtering and storytelling for business stakeholders.
 
-## Introduction  
-Welcome to my **Multi-Tool Data Analytics Projects** repository! This collection showcases data projects where I combine multiple tools—such as **Excel**, **SQL**, **Power BI**, and **Python**—to explore, analyze, and visualize real-world datasets. These projects demonstrate my ability to work across tools to extract meaningful insights, model trends, and build compelling reports and dashboards.
+## Dashboard Components  
+1. **Line Charts**  
+   - Sales and profit trends  
+   - Sales per unit  
+   - Gross profit margin  
+   - Units sold  
+   - COGS per unit  
 
-## Featured Projects  
+2. **Doughnut Charts**  
+   - Product-wise sales and profit contributions  
 
-### 📊 Sales Performance Analysis *(Excel · SQL · Power BI)*  
-- **Description:** A comprehensive end-to-end sales analysis using Excel for data preparation, SQL for deep analysis, and Power BI for dashboard storytelling.  
-- **Highlights:** Correlation analysis, unit economics, gross profit margin trends, and country/product performance comparisons.  
-- **Report:** [Read Report](./Sales-Performance-Project/Sales%20Analysis%20Report.md)  
-- **Folder:** [View Project](./Sales-Performance-Project)  
+3. **Bar Charts**  
+   - Sales and profit by country  
+   - Sales and profit by segment  
 
-*More featured projects will be added as new work is completed.*
+4. **Scatter Plots**  
+   - Discount vs Sales  
+   - Discount vs Profit  
 
-## All Projects  
-Each folder within this repository contains a complete project. Projects may use two or more tools depending on the scope and objective.  
-Explore the *[Projects Folder](https://github.com/Isadare-Oreoluwa/ML-projects/tree/ML-main/Projects)* to see the full list.
+## Key Takeaways from Visuals  
+- Clear correlation between discounting and sales spikes  
+- Segment-level profit margins vary inversely with sales  
+- Uniform COGS per unit across time, confirming pricing as key profit driver
 
-## Getting Started  
+![Screenshot 2025-06-07 015300](https://github.com/user-attachments/assets/60c9ad59-be16-4513-89a6-2ab5cba43e17)
 
-- 🔍 *Viewing the Projects:*  
-  - Browse the repository to explore individual project folders.  
-  - Each project includes its own README file with full context and analysis summary. Click on individual folders to view the code, datasets, and reports directly on GitHub or download them for offline use.  
-
-- *How to Download Files:*
-  If you're unable to download individual files directly from GitHub, you can follow these alternative methods:
-  - *Download the Entire Repository as a ZIP File:*  
-    1. Go to the repository page.  
-    2. Click the green **Code** button at the top right of the page.  
-    3. Select **Download ZIP** from the dropdown menu.  
-    4. Once the ZIP file is downloaded, unzip it to access all the files.  
-
-  - *Clone the Repository Using Git:*  
-    If Git is installed on your system:  
-    1. Copy the repository URL from the **Code** button (the HTTPS link).  
-    2. Open your terminal or command prompt.  
-    3. Type the following command:  
-       ```bash  
-       git clone https://github.com/Isadare-Oreoluwa/ML-projects.git  
-       ```  
-    4. This will download all the contents of the repository to your local machine.  
-
-## Contact  
-
-For any questions or inquiries, feel free to reach out to me via [email](mailto:isadare.ore@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/oreoluwa-isadare).
+![Screenshot 2025-06-07 015749](https://github.com/user-attachments/assets/07514845-76a2-4a0c-8c4b-442b8445d2fa)
 
