@@ -21,4 +21,4 @@ This project focuses on analyzing sales data across various products, countries,
 - Gross profit margins vary more by segment than by product, suggesting pricing/cost structure differences.
 
 ## Report  
-📄 [Sales Analysis Report](https://github.com/Isadare-Oreoluwa/Combo-Projects/blob/main/Projects/Sales%20Performance%20Analysis/Report/Sales%20Performance%20Analysis%20Report.pdf)
+📄 [Sales Analysis Report](https://github.com/Isadare-Oreoluwa/Combo-Projects/blob/Combo-main/Projects/Sales%20Performance%20Analysis/Report/Sales%20Performance%20Analysis%20Report.pdf)
