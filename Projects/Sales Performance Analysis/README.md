@@ -1,24 +1,75 @@
-# 📈 Sales Performance Analysis Project
+---
 
-## Overview  
-This project focuses on analyzing sales data across various products, countries, and customer segments. Using a multi-tool approach, I conducted comprehensive analysis in **Excel**, **SQL**, and **Power BI** to derive insights into profitability, cost efficiency, and revenue trends.
+## 📊 Dashboard
 
-## Tools Used  
-- **Excel**: Data cleaning, preprocessing, and initial exploratory analysis  
-- **SQL**: Advanced data analysis (e.g., time trends, aggregations, profit contribution)  
-- **Power BI**: Interactive dashboards and visual storytelling  
+The interactive Power BI dashboard provides visual insights into:
 
-## Key Questions Explored  
-- Which products and countries contribute most to profit and revenue?  
-- How does discounting affect sales and profit?  
-- Are there patterns in cost and revenue per unit over time?  
-- What are the segment-level profit margins and trends?
+- Sales performance across countries and products
+- Profit and revenue trends over time
+- Segment-level performance
+- Discount impact on profitability
+- Gross margin analysis
 
-## Insights Summary  
-- Discounts have a strong positive correlation with sales (0.74) and a moderate one with profit (0.44).  
-- Paeso leads in sales volume but shows only average profit margin, pointing to cost inefficiencies.  
-- COGS per unit remains stable over time; fluctuations in gross profit margin are driven by changes in revenue.  
-- Gross profit margins vary more by segment than by product, suggesting pricing/cost structure differences.
+📥 **Download Power BI Dashboard**
 
-## Report  
-📄 [Sales Analysis Report](https://github.com/Isadare-Oreoluwa/Combo-Projects/blob/Combo-main/Projects/Sales%20Performance%20Analysis/Report/Sales%20Performance%20Analysis%20Report.pdf)
+https://github.com/Isadare-Oreoluwa/Combo-Projects/tree/Combo-main/Projects/Sales%20Performance%20Analysis
+
+---
+
+## 📂 Repository Structure
+
+```
+Sales Performance Analysis/
+│
+├── Data/
+│   ├── Raw Dataset
+│   └── Cleaned Dataset
+│
+├── Excel/
+│   └── Excel Analysis Workbook
+│
+├── SQL/
+│   ├── SQL Queries
+│   └── SQL Scripts
+│
+├── Power BI/
+│   └── Sales Dashboard.pbix
+│
+├── Report/
+│   └── Sales Performance Analysis Report.pdf
+│
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Viewing the Project
+
+Browse the repository to explore the datasets, SQL scripts, Excel workbook, Power BI dashboard, and report.
+
+### Download the Repository
+
+To download the complete project:
+
+1. Click the **Code** button.
+2. Select **Download ZIP**.
+3. Extract the ZIP file to access all project files.
+
+### Clone the Repository
+
+If you have Git installed, clone the repository using:
+
+```bash
+git clone https://github.com/Isadare-Oreoluwa/Combo-Projects.git
+```
+
+---
+
+## 📫 Contact
+
+If you have any questions, feedback, or collaboration opportunities, feel free to get in touch.
+
+- **Email:** isadare.ore@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/oreoluwa-isadare
